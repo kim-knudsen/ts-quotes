@@ -1,0 +1,14 @@
+{
+    "name": "quotes-project",
+    "version": "1.0.0",
+    "main": "src/main.ts",
+    "license": "MIT",
+    "scripts": {
+        "lint": "tslint -p tsconfig.json",
+        "build": "yarn lint && tsc"
+    },
+    "devDependencies": {
+        "typescript": "^2.8.1",
+        "tslint": "^5.9.1"
+    }
+}
